@@ -1,19 +1,3 @@
-# Roameo----v1
+# Roameo --- v1
 
 
-export interface Profile {
-  id: string;
-  name: string;
-  bio: string;
-  tech_stack: string[];
-  avatar_url: string;
-}
-
-interface Props {
-  profile: Profile;
-  onLike: () => void;
-  onPass: () => void;
-  onSuperlike: () => void;
-}
-
-export default function ProfileCard
